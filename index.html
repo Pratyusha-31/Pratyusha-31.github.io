@@ -24,7 +24,6 @@ section { padding:60px 20px; max-width:1000px; margin:auto; }
 .resume { background:#22c55e; color:white; }
 .projects { background:#38bdf8; color:white; }
 
-/* 3D HOVER EFFECT - Ikkada undi aa animation */
 .card { background:#020617; padding:35px; border-radius:14px; max-width:750px; margin:auto; margin-bottom:20px; box-shadow:0 0 20px rgba(0,0,0,0.5); transition: 0.4s ease; }
 .card:hover { transform: translateY(-10px) scale(1.02); box-shadow: 0 15px 30px rgba(56, 189, 248, 0.3); }
 
@@ -61,22 +60,38 @@ h2 { text-align:center; color:#38bdf8; margin-bottom:30px; font-weight:600; }
 <section id="skills">
 <h2>Skills</h2>
 <div style="text-align:center;">
-<div class="skill">🐍 Python</div><div class="skill">🌐 HTML</div><div class="skill">🎨 CSS</div>
-<div class="skill">🗄 SQL</div><div class="skill">⚙ Git</div><div class="skill">🔗 APIs</div>
+<div class="skill">🐍 Python</div>
+<div class="skill">🌐 HTML</div>
+<div class="skill">🎨 CSS</div>
+<div class="skill">🗄 SQL</div>
+<div class="skill">⚙ Git</div>
+<div class="skill">🔗 APIs</div>
+<div class="skill">⚡ Supabase</div>
 </div>
 </section>
 
 <section id="projects">
 <h2>Projects</h2>
+
 <div class="card">
 <h3>🖼 Exam Photo & Signature Validator</h3>
-<p>A web application that validates candidate photos and signatures based on requirements commonly used in government and competitive exam application portals. This tool helps users to crop, resize, and verify their documents automatically, ensuring compliance with portal standards to prevent application rejections.</p>
+<p>A web application that validates candidate photos and signatures based on government exam requirements. It allows users to crop, resize, and verify documents automatically to avoid application rejection.</p>
 <div class="project-buttons">
 <a href="https://exam-photo-validator.onrender.com" target="_blank" class="demo">Live Demo</a>
 <a href="https://youtu.be/yG2IkXUggug" target="_blank" class="yt-btn">Watch Demo</a>
 <a href="https://github.com/Pratyusha-31/Exam-Photo-Signature-Validator" target="_blank" class="github">GitHub Code</a>
 </div>
 </div>
+
+<div class="card">
+<h3>📒 Visitor Logbook System</h3>
+<p>A QR-based visitor management system built using Flask and Supabase. It includes receptionist authentication, visitor form handling, and secure storage of visitor data in PostgreSQL. The application was exposed using ngrok for real-time access.</p>
+<div class="project-buttons">
+<a href="#" class="demo">Live Demo</a>
+<a href="#" class="github">GitHub Code</a>
+</div>
+</div>
+
 </section>
 
 <section id="experience">
@@ -84,8 +99,10 @@ h2 { text-align:center; color:#38bdf8; margin-bottom:30px; font-weight:600; }
 <div class="card">
 <h3>Customer Service Executive</h3>
 <p><strong>IPMG</strong></p>
-<ul><li>Handled customer queries related to insurance policies.</li>
-<li>Verified customer information and processed requests accurately.</li></ul>
+<ul>
+<li>Handled customer queries related to insurance policies.</li>
+<li>Verified customer information and processed requests accurately.</li>
+</ul>
 </div>
 </section>
 
@@ -97,5 +114,6 @@ h2 { text-align:center; color:#38bdf8; margin-bottom:30px; font-weight:600; }
 <p>✉ pratyushayellapu@gmail.com</p>
 </div>
 </section>
+
 </body>
 </html>
